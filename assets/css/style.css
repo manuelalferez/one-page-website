@@ -1,3 +1,49 @@
+/*-----------------------------------------------------------------------------------*/
+/*  Icons
+/*-----------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/assets/fonts/icomoon.eot?vl7f4');
+  src:  url('/assets/fonts/icomoon.eot?vl7f4#iefix') format('embedded-opentype'),
+    url('/assets/fonts/icomoon.ttf?vl7f4') format('truetype'),
+    url('/assets/fonts/icomoon.woff?vl7f4') format('woff'),
+    url('/assets/fonts/icomoon.svg?vl7f4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-blogger2:before {
+  content: "\eab8";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
 
 /*
   Theme Name: Folio
@@ -62,7 +108,7 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #b8a07e;
+  color: #7e8cb8;
   text-decoration: underline;
 }
 
