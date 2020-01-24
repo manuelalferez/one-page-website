@@ -1,0 +1,19 @@
+{
+  "name": "one-page-website",
+  "version": "1.0.0",
+  "description": "One Page Personal Website - https://aabedraba.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabedraba/one-page-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aabedraba/one-page-website/issues"
+  },
+  "homepage": "https://github.com/aabedraba/one-page-website#readme"
+}
